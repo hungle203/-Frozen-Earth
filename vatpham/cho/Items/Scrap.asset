@@ -15,6 +15,7 @@ MonoBehaviour:
   itemName: "Ph\u1EBF li\u1EC7u"
   icon: {fileID: -2811970446431510403, guid: bb1cfc822829fe14ea55e318c52faedb, type: 3}
   type: 5
-  stackable: 0
+  stackable: 1
   maxStack: 20
   description: "D\xF9ng \u0111\u1EC3 s\u1EEDa ch\u1EEFa th\xE2n phi thuy\u1EC1n "
+  foodRestoreAmount: 0

@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
-  m_Name: circuit
+  m_Name: food box
   m_EditorClassIdentifier: 
-  itemName: "M\u1EA1ch \u0111i\u1EC7n"
-  icon: {fileID: -3086293359682849635, guid: fee2fa17b748847459e2b30e437cbd09, type: 3}
-  type: 4
+  itemName: "H\u1ED9p th\u1ECBt nh\u1ECF"
+  icon: {fileID: 641515894465698295, guid: 3fea39494d9cee94dbe05d847b19907f, type: 3}
+  type: 0
   stackable: 1
-  maxStack: 3
-  description: "D\xF9ng \u0111\u1EC3 s\u1EEDa ch\u1EEFa th\xE2n phi thuy\u1EC1n "
-  foodRestoreAmount: 0
+  maxStack: 99
+  description: "D\xF9ng \u0111\u1EC3 h\u1ED3i 50 th\u1EE9c \u0103n "
+  foodRestoreAmount: 50
