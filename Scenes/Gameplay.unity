@@ -841,11 +841,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32abdaddd5051c14c9cbff70746ccd7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  lootTable:
-  - item: {fileID: 11400000, guid: 1a4863b28b0834e4f9be90faf451cd2c, type: 2}
-    weight: 50
-  - item: {fileID: 11400000, guid: f77b02546e2a1524f80e435e09c8473e, type: 2}
-    weight: 10
+  possibleItems: []
   minAmount: 1
   maxAmount: 2
   interactKey: 102
@@ -10217,7 +10213,6 @@ MonoBehaviour:
   itemName: {fileID: 494705082}
   description: {fileID: 820418297}
   amount: {fileID: 815254068}
-  useButton: {fileID: 743329864}
 --- !u!114 &1383363207
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11807,8 +11802,8 @@ Camera:
   m_GameObject: {fileID: 1864990544}
   m_Enabled: 1
   serializedVersion: 2
-  m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.011614458, g: 0.018104015, b: 0.028301895, a: 0}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -13105,20 +13100,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eed1844b3b2b0f41b27825f482996fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialoguePanel: {fileID: 1792453575}
-  dialogueText: {fileID: 1887664676}
-  tutorialLines:
-  - "Anh Alex... ch\xFAng t\xF4i l\xE0 ng\u01B0\u1EDDi b\xEAn \u0111\u1ED9i s\u1EEDa
-    ch\u1EEFa"
-  - "Theo nh\u1EEFng b\xE1o c\xE1o t\u1EF1 d\u1ED9ng c\u1EE7a phi thuy\xEAn"
-  - "Ch\xFAng t\xF4i \u0111\xE1nh gi\xE1 n\xF3 v\u1EABn c\xF3 th\u1EC3 ho\u1EA1t
-    \u0111\u1ED9ng \u0111\u01B0\u1EE3c"
-  - "S\u1EBD m\u1EA5t kh\xE1 nhi\u1EC1u th\u1EDDi gian \u0111\u1EC3 s\u1EEDa ch\u1EEFa "
-  - "Ch\xFAng t\xF4i s\u1EBD g\u1EEDi nh\u1EEFng linh ki\u1EC7n \u0111\u1EC3 c\xF3
-    th\u1EC3 s\u1EEDa ch\u1EEFa t\u1EA1m th\u1EDDi"
-  - "H\xE3y c\u1ED1 g\u1EAFng s\u1ED1ng s\xF3t!!"
-  - "S\u1EEDa d\u1EE5ng ph\xEDm A, D \u0111\u1EC3 ch\u1ECDn b\u1ED9 ph\u1EADn"
-  - "Nh\u1EA5n Space \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u s\u1EEDa"
   repairPanel: {fileID: 2104598083}
   parts:
   - partName: Engine
@@ -13168,6 +13149,20 @@ MonoBehaviour:
     isRepaired: 0
   repairSpeed: 20
   playerMovement: {fileID: 2024872419}
+  dialoguePanel: {fileID: 1792453575}
+  dialogueText: {fileID: 1887664676}
+  tutorialLines:
+  - "Anh Alex... ch\xFAng t\xF4i l\xE0 ng\u01B0\u1EDDi b\xEAn \u0111\u1ED9i s\u1EEDa
+    ch\u1EEFa"
+  - "Theo nh\u1EEFng b\xE1o c\xE1o t\u1EF1 d\u1ED9ng c\u1EE7a phi thuy\xEAn"
+  - "Ch\xFAng t\xF4i \u0111\xE1nh gi\xE1 n\xF3 v\u1EABn c\xF3 th\u1EC3 ho\u1EA1t
+    \u0111\u1ED9ng \u0111\u01B0\u1EE3c"
+  - "S\u1EBD m\u1EA5t kh\xE1 nhi\u1EC1u th\u1EDDi gian \u0111\u1EC3 s\u1EEDa ch\u1EEFa "
+  - "Ch\xFAng t\xF4i s\u1EBD g\u1EEDi nh\u1EEFng linh ki\u1EC7n \u0111\u1EC3 c\xF3
+    th\u1EC3 s\u1EEDa ch\u1EEFa t\u1EA1m th\u1EDDi"
+  - "H\xE3y c\u1ED1 g\u1EAFng s\u1ED1ng s\xF3t!!"
+  - "S\u1EEDa d\u1EE5ng ph\xEDm A, D \u0111\u1EC3 ch\u1ECDn b\u1ED9 ph\u1EADn"
+  - "Nh\u1EA5n Space \u0111\u1EC3 b\u1EAFt \u0111\u1EA7u s\u1EEDa"
   ironItem: {fileID: 11400000, guid: 90232c5f0fd72494a9d1116d2c333ac5, type: 2}
   fuelItem: {fileID: 11400000, guid: ddd293165f46fc949aa5de5e312c0299, type: 2}
   metalItem: {fileID: 11400000, guid: 77ecaa8db9564fd4cb4e404007400ded, type: 2}
