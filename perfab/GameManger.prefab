@@ -46,5 +46,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   slotCount: 24
   inventoryPanel: {fileID: 3296724133732558542, guid: 731ff4a468729534f8d80f4372dc5f49, type: 3}
-  items: []
-  itemCounts: 
+  items:
+  - {fileID: 11400000, guid: cf4feade192a989499ccc114d04bc377, type: 2}
+  itemCounts: 01000000
