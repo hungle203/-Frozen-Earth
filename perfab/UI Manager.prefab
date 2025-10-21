@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1372604132795092257
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5915224760605867636}
+  - component: {fileID: 3331599995986062696}
+  - component: {fileID: 2071727895153438265}
+  m_Layer: 0
+  m_Name: UI Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5915224760605867636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372604132795092257}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1022.71497, y: 615.2716, z: -5.134458}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3331599995986062696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372604132795092257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ae14be3baad5944187aa63d3f28a613, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  consolePanel: {fileID: 0}
+  consoleText: {fileID: 0}
+  scrollRect: {fileID: 0}
+  typingSpeed: 0.03
+--- !u!114 &2071727895153438265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1372604132795092257}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bab7b862b39d04f80a714cfefc5a94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  logs:
+  - "[LOG 01]  \r\n12/07/2078 \u2013 D\u1EF1 \xE1n GENESIS kh\u1EDFi \u0111\u1ED9ng. 
+    \r\nM\u1EE5c ti\xEAu: c\u1EA3i ti\u1EBFn con ng\u01B0\u1EDDi \u0111\u1EC3 s\u1ED1ng
+    s\xF3t trong m\xF4i tr\u01B0\u1EDDng kh\u1EAFc nghi\u1EC7t.  \r\nH\u1ECD g\u1ECDi
+    ch\xFAng t\xF4i l\xE0 \u201Cnh\u1EEFng k\u1EBB m\u01A1 m\u1ED9ng \u0111i\xEAn
+    r\u1ED3\u201D.\r\n"
+  - "[LOG 02]  \r\n23/08/2079 \u2013 Th\xED nghi\u1EC7m th\u1EA5t b\u1EA1i.  \r\nC\xE1c
+    m\u1EABu th\u1EED b\u1EAFt \u0111\u1EA7u ph\u1EA3n \u1EE9ng d\u1EEF d\u1ED9i
+    v\u1EDBi \xE1nh s\xE1ng, ch\xFAng g\xE0o th\xE9t khi ti\u1EBFp x\xFAc.  \r\nCh\xEDnh
+    ph\u1EE7 y\xEAu c\u1EA7u ch\xFAng t\xF4i ti\u1EBFp t\u1EE5c\u2026\r\n.\r\n"
+  hasReadAllLogs: 0

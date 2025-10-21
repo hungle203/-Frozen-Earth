@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6838861304799035391
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3731071935932840773}
+  - component: {fileID: 5072747186890424708}
+  m_Layer: 0
+  m_Name: audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3731071935932840773
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838861304799035391}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 463.53577, y: 84.12086, z: 267923.22}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5072747186890424708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6838861304799035391}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62d4c8e557ef93e43b2dd703b9cc0bcd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  musicSource: {fileID: 0}
+  sfxSourcePrefab: {fileID: 270034116863286628, guid: 7067b697ff9b85740bc1a3d39a549896, type: 3}
+  sfxList:
+  - key: BGM
+    clip: {fileID: 8300000, guid: 3418c21bbb8afdb42a391af3ec7ae7c1, type: 3}
+    volume: 1
+    pitch: 0
+    loop: 0
+    is3D: 0
+  - key: ui_click
+    clip: {fileID: 8300000, guid: e6e35c5e8847ab14e95f0da8b758dc75, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    is3D: 0
+  - key: typing
+    clip: {fileID: 8300000, guid: db274de57b0394e47b7044a06362b36a, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 0
+    is3D: 0
+  - key: click
+    clip: {fileID: 8300000, guid: e6e35c5e8847ab14e95f0da8b758dc75, type: 3}
+    volume: 0.8
+    pitch: 1
+    loop: 0
+    is3D: 0
