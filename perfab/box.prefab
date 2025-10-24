@@ -155,13 +155,15 @@ MonoBehaviour:
   - item: {fileID: 11400000, guid: 77ecaa8db9564fd4cb4e404007400ded, type: 2}
     weight: 50
   - item: {fileID: 11400000, guid: ac7fc8a69cbc5164881df6b3f32ce8e9, type: 2}
-    weight: 50
+    weight: 70
   - item: {fileID: 11400000, guid: f77b02546e2a1524f80e435e09c8473e, type: 2}
     weight: 30
   - item: {fileID: 11400000, guid: ddd293165f46fc949aa5de5e312c0299, type: 2}
     weight: 10
   - item: {fileID: 11400000, guid: 7d48c1737c8fdad45939801b91968210, type: 2}
     weight: 60
+  - item: {fileID: 11400000, guid: 2662ee1aeff45b24c8962ad1488d6410, type: 2}
+    weight: 70
   minAmount: 1
   maxAmount: 2
   interactKey: 102

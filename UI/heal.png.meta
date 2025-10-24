@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: ca547ba727895b34d8854065b98c041c
+guid: 65c6d05c5286215439bcf0f880b2c603
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2398782709385381863
-    second: box-Photoroom_0
+      213: -1049461823314036041
+    second: heal_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: box-Photoroom_0
+      name: heal_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 6
-        width: 50
-        height: 46
+        x: 5
+        y: 11
+        width: 54
+        height: 43
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9183cb9c5dfc5bed0800000000000000
-      internalID: -2398782709385381863
+      spriteID: 7ba780038009f61f0800000000000000
+      internalID: -1049461823314036041
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      box-Photoroom_0: -2398782709385381863
+      heal_0: -1049461823314036041
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
