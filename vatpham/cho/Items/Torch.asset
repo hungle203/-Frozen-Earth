@@ -15,7 +15,7 @@ MonoBehaviour:
   itemName: "\u0110u\u1ED1c"
   icon: {fileID: -8553596595128423742, guid: c2571e2cf6c01654aa60edb6ffc949d1, type: 3}
   type: 10
-  stackable: 0
+  stackable: 1
   maxStack: 1
   description: "H\u1ED3i ph\u1EE5c l\u1EA1i nhi\u1EC7t \u0111\u1ED9 c\u01A1 th\u1EC3"
   foodRestoreAmount: 0

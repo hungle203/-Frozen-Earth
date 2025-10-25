@@ -750,7 +750,7 @@ MonoBehaviour:
   dialogueText: {fileID: 122726736}
   dialoguePanel: {fileID: 703763425}
   scenes:
-  - background: {fileID: -2714656624514543499, guid: 9a19ce2bf717b374c96ea645f036f37d, type: 3}
+  - background: {fileID: -3180569774160364741, guid: dbe165a7c3b7d184baed8ef4120bda4c, type: 3}
     lines:
     - "Theo l\u1EDDi c\u1EE7a \xF4ng ti\u1EBFn s\u0129 "
     - "Th\xEC t\u1EA1i \u0111\xE2y v\u1EABn c\xF2n m\u1ED9t chi\u1EBFc phi thuy\u1EC1n
@@ -766,6 +766,7 @@ MonoBehaviour:
     - "Ta s\u1EBD g\u1EB7p nhau m\u1ED9t ng\xE0y n\xE0o \u0111\xF3"
     - "T\u1EA1m bi\u1EC7t"
   textSpeed: 0.02
+  sceneToLoadAfterEnding: MainMenu
   typingSfxKey: typing
   clickSfxKey: click
   introMusic: {fileID: 8300000, guid: b6fe3360c4e6ec743aece983cb193b0b, type: 3}
