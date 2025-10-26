@@ -190,8 +190,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 53659ca2f329248449205440c86fe20c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
-  damage: 1
+  stepInterval: 0.8
+  maxHealth: 50
+  damage: 5
   dropChance: 10
   ammoDropPrefab: {fileID: 4617845793752252535, guid: 6dfd21c50fc9b4e469f40d2b72ab8de6, type: 3}
   deathEffect: {fileID: 0}

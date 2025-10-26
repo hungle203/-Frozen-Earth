@@ -344,7 +344,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1053915183}
   - component: {fileID: 1053915182}
-  - component: {fileID: 1053915181}
   - component: {fileID: 1053915184}
   m_Layer: 0
   m_Name: Main Camera
@@ -353,14 +352,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1053915181
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1053915180}
-  m_Enabled: 1
 --- !u!20 &1053915182
 Camera:
   m_ObjectHideFlags: 0
@@ -908,6 +899,7 @@ MonoBehaviour:
     - "h\xE3y quay l\u1EA1i ch\u01A1i n\u1EBFu c\u1EA3m th\u1EA5y hay"
     - "T\u1EA1m bi\u1EC7t"
   textSpeed: 0.02
+  sceneToLoadAfterEnding: MainMenu
   typingSfxKey: typing
   clickSfxKey: click
   introMusic: {fileID: 8300000, guid: b6fe3360c4e6ec743aece983cb193b0b, type: 3}

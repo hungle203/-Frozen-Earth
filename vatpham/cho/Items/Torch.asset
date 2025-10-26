@@ -16,7 +16,7 @@ MonoBehaviour:
   icon: {fileID: -8553596595128423742, guid: c2571e2cf6c01654aa60edb6ffc949d1, type: 3}
   type: 10
   stackable: 1
-  maxStack: 1
+  maxStack: 50
   description: "H\u1ED3i ph\u1EE5c l\u1EA1i nhi\u1EC7t \u0111\u1ED9 c\u01A1 th\u1EC3"
   foodRestoreAmount: 0
   gunPrefab: {fileID: 0}
@@ -24,5 +24,6 @@ MonoBehaviour:
   fireRate: 0.3
   ammoAmount: 1
   healAmount: 100
-  torchHeatAmount: 5
+  torchHeatAmount: 10
+  torchDuration: 60
   torchPrefab: {fileID: 2363254757768459828, guid: 1ae9b6361c139cc489a8fa35ba2e1d39, type: 3}

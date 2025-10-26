@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 8709939860981403688}
   - component: {fileID: 5188208711645849383}
   - component: {fileID: 4144967954472184812}
+  - component: {fileID: 8631425084583297921}
   m_Layer: 0
   m_Name: Torch_0
   m_TagString: Untagged
@@ -177,6 +178,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8631425084583297921
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2363254757768459828}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33555bf036e49eb4597e19fccddc8326, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  light2D: {fileID: 4080467966819568705}
+  minIntensity: 0.4
+  maxIntensity: 0.5
+  flickerSpeed: 0.1
 --- !u!1 &8615612814020205369
 GameObject:
   m_ObjectHideFlags: 0
