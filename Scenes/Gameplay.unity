@@ -145761,6 +145761,7 @@ GameObject:
   - component: {fileID: 1485749063}
   - component: {fileID: 1485749064}
   - component: {fileID: 1485749065}
+  - component: {fileID: 1485749066}
   m_Layer: 0
   m_Name: Bonfire
   m_TagString: Bonfire
@@ -145953,6 +145954,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b02f1760528e8b0429186295a078931b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1485749066
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1485749058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8daf70dea2008634fa26130eb87bf1f5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueID: bonfire1
+  dialogueText: "L\u1EEDa tr\u1EA1i gi\xFAp s\u01B0\u1EDFi \u1EA5m...."
+  triggerType: 0
+  autoDestroyAfter: 0
 --- !u!1 &1489347502
 GameObject:
   m_ObjectHideFlags: 0
@@ -148581,7 +148598,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   totalWaves: 12
-  timeBetweenWaves: 6
+  timeBetweenWaves: 180
   enemiesPerWave: 050000000a000000140000001e000000280000002800000028000000280000002800000028000000280000002800000028000000
   normalMusic: {fileID: 8300000, guid: d3f29f0435fe4c7478cec7a5d4abb707, type: 3}
   waveMusic: {fileID: 8300000, guid: 0fb72fec225c7144f8bb55abf7440fec, type: 3}
@@ -148726,6 +148743,63 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 59b53a22b52d2f1419ad74f31f8520a5, type: 3}
+--- !u!1001 &8104698807411113812
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -42.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8207672
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3386382671068904524, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6328555483298693816, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
+      propertyPath: m_Name
+      value: Spawn_8
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: be4352cca04c599449a7246dfcbe2ea6, type: 3}
 --- !u!1 &8857985560042443658
 GameObject:
   m_ObjectHideFlags: 0
@@ -148813,3 +148887,4 @@ SceneRoots:
   - {fileID: 747345059}
   - {fileID: 1921033230}
   - {fileID: 173823355}
+  - {fileID: 8104698807411113812}
