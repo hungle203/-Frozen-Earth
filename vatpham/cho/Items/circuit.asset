@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: circuit
   m_EditorClassIdentifier: 
+  itemID: item_circuit
   itemName: "M\u1EA1ch \u0111i\u1EC7n"
   icon: {fileID: -3086293359682849635, guid: fee2fa17b748847459e2b30e437cbd09, type: 3}
   type: 4
@@ -19,3 +20,11 @@ MonoBehaviour:
   maxStack: 3
   description: "D\xF9ng \u0111\u1EC3 s\u1EEDa ch\u1EEFa th\xE2n phi thuy\u1EC1n "
   foodRestoreAmount: 0
+  gunPrefab: {fileID: 0}
+  magazineSize: 10
+  fireRate: 0.3
+  ammoAmount: 1
+  healAmount: 100
+  torchHeatAmount: 3
+  torchDuration: 60
+  torchPrefab: {fileID: 0}

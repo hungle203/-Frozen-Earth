@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: Wood
   m_EditorClassIdentifier: 
+  itemID: item_wood
   itemName: "C\u1EE7i"
   icon: {fileID: -5415152390355213561, guid: c3404c9870db11a4cb8f797a62189503, type: 3}
   type: 8
@@ -24,3 +25,7 @@ MonoBehaviour:
   magazineSize: 10
   fireRate: 0.3
   ammoAmount: 1
+  healAmount: 100
+  torchHeatAmount: 3
+  torchDuration: 60
+  torchPrefab: {fileID: 0}

@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: gun
   m_EditorClassIdentifier: 
+  itemID: item_gun
   itemName: "S\xFAng ng\u1EAFn"
   icon: {fileID: -6628414004274166170, guid: d2d513a8916c5a44b93862946257c9ac, type: 3}
   type: 6
@@ -20,3 +21,10 @@ MonoBehaviour:
   description: "S\xFAng ng\u1EAFn d\xF9ng \u0111\u1EBB b\u1EAFn "
   foodRestoreAmount: 0
   gunPrefab: {fileID: 1017823454358833542, guid: 3df9267425d2a754197d3df66385632e, type: 3}
+  magazineSize: 10
+  fireRate: 0.3
+  ammoAmount: 1
+  healAmount: 100
+  torchHeatAmount: 3
+  torchDuration: 60
+  torchPrefab: {fileID: 0}

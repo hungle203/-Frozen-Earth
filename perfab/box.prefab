@@ -164,6 +164,8 @@ MonoBehaviour:
     weight: 60
   - item: {fileID: 11400000, guid: 2662ee1aeff45b24c8962ad1488d6410, type: 2}
     weight: 70
+  - item: {fileID: 11400000, guid: 4ece266adf834e548850a107f94a95ae, type: 2}
+    weight: 70
   minAmount: 1
   maxAmount: 2
   interactKey: 102

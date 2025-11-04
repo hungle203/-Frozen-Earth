@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: Ammo
   m_EditorClassIdentifier: 
+  itemID: item_ammo
   itemName: "B\u0103ng \u0111\u1EA1n"
   icon: {fileID: 7498031124747130091, guid: 2e1001a4daa35ae4499d12a286960ba4, type: 3}
   type: 7
@@ -23,3 +24,7 @@ MonoBehaviour:
   magazineSize: 10
   fireRate: 0.3
   ammoAmount: 20
+  healAmount: 100
+  torchHeatAmount: 3
+  torchDuration: 60
+  torchPrefab: {fileID: 0}

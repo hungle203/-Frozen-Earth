@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: Torch
   m_EditorClassIdentifier: 
+  itemID: item_torch
   itemName: "\u0110u\u1ED1c"
   icon: {fileID: -8553596595128423742, guid: c2571e2cf6c01654aa60edb6ffc949d1, type: 3}
   type: 10

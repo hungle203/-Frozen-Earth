@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 79885c19e7683104197ee4359538de2e, type: 3}
   m_Name: Iron
   m_EditorClassIdentifier: 
+  itemID: item_iron
   itemName: "S\u1EAFt"
   icon: {fileID: -3462986009860162121, guid: 0dd8614da66600b47a4f54bfcee956c2, type: 3}
   type: 1
@@ -19,3 +20,11 @@ MonoBehaviour:
   maxStack: 10
   description: "D\xF9ng \u0111\u1EBF s\u1EEDa ch\u1EEFa \u0111\u1ED9ng c\u01A1"
   foodRestoreAmount: 0
+  gunPrefab: {fileID: 0}
+  magazineSize: 10
+  fireRate: 0.3
+  ammoAmount: 1
+  healAmount: 100
+  torchHeatAmount: 3
+  torchDuration: 60
+  torchPrefab: {fileID: 0}
